@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Share your NOTE - Login</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" href="./source/title_logo.png" type="image/png">
+    </head>
+    <body>
+        <form action="login.php" method="post">
+            <img id="login-logo" src="./source/main_logo_small.png" alt="login-logo">
+            <h1 id="login-plz">Please log in</h1><br/>
+
+            <div id="id-box">
+                <input type="email" id="id-input" name="userid" placeholder="Email address">
+            </div>
+
+            <div id="pw-box">
+                <input type="password" id="pw-input" name="userpw" placeholder="Password">
+            </div>
+            <br/>
+            
+            <button id="login-button" type="submit" name="submit">Sign in</button>
+
+            
+            <p id="go-signup">
+                Not a member?
+                <a href="./signup.html">Join</a>
+            </p>
+            
+        </form>
+    </body>
+</html>

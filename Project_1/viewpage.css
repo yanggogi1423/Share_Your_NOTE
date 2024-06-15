@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+}
+
+/*main*/
+
+#wrapper{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 140px;
+}
+
+
+/*body*/
+
+.read-table{
+    margin: auto;
+    border: 1px solid black;
+}
+
+.read-title{
+    width: 1200px;
+    height: 45px;
+    font-size: 25px;
+
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.read-id,
+.read-view{
+    width: 15%;
+    height: 33px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.read-id2,
+.read-view2{
+    width: 35%;
+    height: 33px;
+    padding-left: 10px;
+}
+
+.read-content{
+    border-top: 1px solid black;
+    padding: 20px;
+    height: 800px;
+}
+
+.button-box{
+
+    display: flex;
+    justify-content: center;
+
+    width: 700px;
+    height: 200px;
+    margin:auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.read-button{
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 5px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* comment */
+
+.comment-box{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.read-comment{
+    width: 600px;
+    margin:0 auto;
+}
+
+.comment-id{
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.comment-content{
+    border-bottom: 1px solid lightgray;
+}
+
+.comment-row{
+    margin: 20px 0;
+}
+
+.delete-comment{
+    display: inline;
+    height: 25px;
+    width: 45px;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+
+    color: white;
+    background-color: black;
+
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+
+
+#input-comment{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#comment{
+    display: inline;
+}
+
+
+#submit-button{
+
+    display: inline;
+    height: 70px;
+    width: 70px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto 10px;
+
+    color: white;
+
+    background-color: #007bff;
+    
+    /* border: 2px solid black; */
+    border-radius: 7px;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+/*main*/
+
+#wrapper{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 140px;
+}
+
+/*body*/
+
+#title-box{
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table{
+    margin: auto;
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+table .even {
+    background: #efefef;
+}
+
+#upload-box{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.upload-box:hover{
+    text-decoration: underline;
+}
+
+table a{
+    color: #037CC6;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#upload-box a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+

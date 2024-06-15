@@ -1,0 +1,32 @@
+#main-box{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 30px;
+    align-items: center;
+}
+
+#main-box img{
+    display: block;
+    margin: auto;
+}
+
+#main-box h1{
+    display: block;
+    margin: auto;
+}
+
+#main-box article{
+    display: block;
+    margin: auto;
+}
+
+#main-box p{
+    font-weight: bold;
+    display: block;
+}
+
+a{
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}

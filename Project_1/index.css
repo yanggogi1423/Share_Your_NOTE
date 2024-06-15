@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*main*/
+
+#wrapper{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 140px;
+}
+
+/*main*/
+
+#all{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+
+    width: 100vw;
+
+    padding: 0px 30px;
+}
+
+/*full-bull*/
+#left-main{
+    max-width: 700px;
+    min-width: 400px;
+    /* border: 1px solid red; */
+    padding: 30px;
+
+    width: 100%;
+
+    /*left-main의 공간이 제일 커야 하기 때문에 margin은 건드리지 않는다.*/
+}
+
+.read-table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+.left-title{
+
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+.view-time{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    max-width: 220px;
+    color: gray;
+    padding: 5px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.view-content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    height: 50px;
+
+    max-width: 580px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.view-content a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-content a:hover{
+    opacity: 0.7;
+}
+
+/*today-say*/
+#middle-main{
+    
+    /* border: 1px solid red; */
+    height: 1000px;
+    width: 80%;
+    min-width: 400px;
+    margin-left: 15px;
+
+    padding: 30px;
+}
+
+#today-saying{
+    height: auto;
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+    
+    padding: 15px 14px;
+
+    font-family: Georgia, serif;
+}
+
+#ts-title{
+    font-size: 150%;
+    text-align: center;
+}
+
+#ts-content{
+    font-size: 170%;
+    font-style: italic;
+    text-align: center;
+
+    margin: auto 0;
+}
+
+#ts-name{
+    font-size: 110%;
+    text-align: center;
+}
+
+/*me-and-free*/
+#right-main{
+    /* border: 1px solid red; */
+    padding: 30px;
+    max-width: 450px;
+    margin-left: 15px;
+}
+
+/*me-in-all*/
+#me-in-all{
+    border: 1px dotted #CDCDCD;
+    border-radius: 0.7;
+    background-color: #ECECEC;
+    padding: 30px;
+    
+    margin-bottom: 15px;
+    
+}
+
+#hello p{
+    text-align: center;
+    font-size: 21px;
+    color: #037CC6;
+    font-weight: 700;
+
+    width: 100%;
+}
+
+/*free-forum*/
+#free-forum{
+    /* border: 1px solid red; */
+    padding: 30px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/*free-forum*/
+#main-ads img{
+    margin-bottom: 10px;
+}
